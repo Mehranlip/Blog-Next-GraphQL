@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Roboto-bold";
+    src: url("../public/Roboto-Bold.ttf");
+}
+
+
+.card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 15px 20px 40px rgba(216, 211, 211, 0.4);
+}
+
+.card h2 {
+    padding: 0.5rem 0rem;
+}
+
+.card h3 {
+    font-size: 1rem;
+
+}
+
+.imgContainer {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+}
+
+.imgContainer img {
+    height: 25vh;
+    width: 100%;
+}
+
+.card img:hover {
+    opacity: 0.8;
+}
+
+.card img {
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.text {
+    font-weight: bold;
+    padding: 2rem 1rem;
+    display: grid;
+
+}
+
+.text h2 {
+    font-family: "Roboto-bold";
+}
+
+.details {
+    font-family: "Roboto-bold";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    margin-left: 1rem;
+}
+
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width:768) {
+    .card {
+        margin: 0rem 2rem;
+    }
+}
